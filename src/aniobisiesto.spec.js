@@ -10,4 +10,7 @@ describe("Determinar si es un año bisiesto", () => {
     it("Si un año es divisible por 4 pero no por 100 se retorna true", () => {
         expect(aniobisiesto(2016)).toEqual(true);
     });
+    it("Si un año es divisible por 4 pero no por 100 se retorna true", () => {
+        expect(aniobisiesto(2017)).toEqual(false);
+    });
 });
